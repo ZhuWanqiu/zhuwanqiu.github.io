@@ -1818,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f6ffbd;
+  background: #b1ffff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2693,7 +2693,7 @@ embed {
   z-index: 0;
   bottom: 0;
 }
-video#fillwith {
+video .fillwidth {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -2704,7 +2704,7 @@ video#fillwith {
   background: url("/images/videoone.jpg") no-repeat;
   background-size: cover;
 }
-#content_words {
+#video_words {
   font-family: Agenda-Light, Agenda Light, Agenda, sans-serif;
   font-weight: 100;
   background: #000;
