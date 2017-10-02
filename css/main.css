@@ -1,4 +1,4 @@
-/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+b/* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -1818,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff67;
+  background: #cfac21;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2654,4 +2654,70 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+
+.homepage-try-module {
+  border-right:none;
+  border-left:none;
+  position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display:block !important;
+}
+
+.video-container {
+  position:relative;
+  bottom:0%;
+  left:0%;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  background:#000;
+}
+
+.video-container .poster img {
+  width:100%;
+  bottom:0;
+  position:absolute;
+
+}
+.video-container .filter {
+  z-index:100;
+  position:absolute;
+  background:rgba(0,0,0,0.4);
+  width:100%;
+}
+.video-container video {
+  position:absolute;
+  z-index:0;
+  bottom:0;
+}
+
+video#fillwith {
+  position:fixed; 
+  right:0; 
+  bottom:0;
+  min-width:100%; 
+  min-height:100%;
+  width:auto;
+  height:auto;
+  background:url("/images/videoone.jpg") no-repeat;
+  background-size:cover;
+}
+
+#content_words {
+  font-family:Agenda-Light, Agenda Light, Agenda, sans-serif;
+  font-weight:100;
+  background:rgb(0,0,0,0.3);
+  color:white;
+  padding:2rem;
+  width:33%;
+  margin:2rem;
+  float:right;
+  font-size:1.2rem;
 }
