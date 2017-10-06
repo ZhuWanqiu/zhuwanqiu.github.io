@@ -1818,7 +1818,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #70c418;
+  background: #7ab5ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2672,8 +2672,8 @@ embed {
   position: relative;
   bottom: 0%;
   left: 0%;
-  width: 30rem;
-  height: 45rem;
+  width: 600px;
+  height: 700px;
   overflow: hidden;
 }
 .video-container .poster img {
@@ -2683,13 +2683,16 @@ embed {
   position: absolute;
 }
 .video-container .filter {
-  z-index: 100;
+  z-index: 0;
   position: absolute;
   background: rgba(0,0,0,0.4);
   width: 100%;
+  height: 100%;
 }
 .video-container video {
   position: absolute;
+  height: 100%;
+  width: 100%;
   z-index: -100;
   bottom: 0;
 }
@@ -2704,7 +2707,7 @@ video .fillWidth {
   background-size: cover;
 }
 .video_content {
-  font-family: Agenda-Light, Agenda Light, Agenda, sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif, Agenda Light, Agenda, sans-serif;
   font-weight: 100;
   background: #000;
   color: #fff;
@@ -2713,4 +2716,6 @@ video .fillWidth {
   margin: 2rem;
   float: right;
   font-size: 1.2rem;
+  text-align: center;
+  z-index: 1000;
 }
